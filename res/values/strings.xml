@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, OpenGLSETestActivity!</string>
+    <string name="app_name">OpenGLSETest</string>
+    <string name="rotate_cube">旋转立方体</string>
+    <string name="spritetext">精灵文字</string>
+    <string name="rubik">魔方3D</string>
+    <string name="rubik2d">魔方2D</string>
+    <string name="txt_set_pwd_and_save">请设置密码，完成后按确认按钮</string>
+    <string name="txt_confirm_set_pwd_and_save">请重复刚才设置密码，完成后按确认按钮</string>
+    <string name="txt_user_guide_set_pwd_and_save">任意选一种颜色朝某个方向滑动，选择其它颜色重复此步骤，完成后按确认按钮,将会按照当前的颜色，方向按顺序保存为密码</string>
+    <string name="txt_user_guide_confirmset_pwd_and_save">按照上一页选择的颜色和方向，按顺序重复所有步骤,完成后按确认按钮,如果相同将会保存密码</string>
+    <string name="txt_user_guide_introduce">魔方解锁介绍：\n一个魔方展开后有六个面，每个面又包含9个小块，对应着6种颜色，每个小块可以向上下左右方向滑动，底部空白区域支持手势滑动，根据相应的滑动方向将魔方的其他面展示到正前方。第一次需要重复输入来设置密码</string>
+
+</resources>

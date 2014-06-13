@@ -27,7 +27,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.tomatozq.opengl.R;
-import com.tomatozq.opengl.tutorial.MainActivity;
 
 public class RobikCube2DActivity extends Activity {
     private static final String TAG = "RobikCube2DActivity";
@@ -85,6 +84,7 @@ public class RobikCube2DActivity extends Activity {
             params.height = getWindowManager().getDefaultDisplay().getWidth() / 3;
         }
         mBtnSave.setOnClickListener(mOnBtnSaveClickListener);
+        mBtnSave.setClickable(false);
 
         mLayoutMain.setOnTouchListener(mOnLayoutTouchListener);
 

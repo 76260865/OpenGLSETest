@@ -7,10 +7,10 @@
     <string name="spritetext">精灵文字</string>
     <string name="rubik">魔方3D</string>
     <string name="rubik2d">魔方2D</string>
-    <string name="txt_set_pwd_and_save">请设置密码，完成后按确认按钮</string>
-    <string name="txt_confirm_set_pwd_and_save">请重复刚才设置密码，完成后按确认按钮</string>
-    <string name="txt_user_guide_set_pwd_and_save">任意选一种颜色朝某个方向滑动，选择其它颜色重复此步骤，完成后按确认按钮,将会按照当前的颜色，方向按顺序保存为密码</string>
-    <string name="txt_user_guide_confirmset_pwd_and_save">按照上一页选择的颜色和方向，按顺序重复所有步骤,完成后按确认按钮,如果相同将会保存密码</string>
-    <string name="txt_user_guide_introduce">魔方解锁介绍：\n一个魔方展开后有六个面，每个面又包含9个小块，对应着6种颜色，每个小块可以向上下左右方向滑动，底部空白区域支持手势滑动，根据相应的滑动方向将魔方的其他面展示到正前方。第一次需要重复输入来设置密码</string>
+    <string name="txt_set_pwd_and_save">任意选一种颜色,手指按住方块中心朝上下左右中任意一个方向滑动，再选择其它颜色重复此步骤，完成后点击右边确认按钮(滑动三次以上后确认按钮才能点击)</string>
+    <string name="txt_confirm_set_pwd_and_save">重复上面所有步骤,完成后点击右边确认按钮,如果相同将会按照选择的颜色，滑动方向组合保存为当前密码</string>
+    <string name="txt_user_guide_set_pwd_and_save">任意选一种颜色,手指按住方块中心朝上下左右中任意一个方向滑动，再选择其它颜色重复此步骤，完成后点击右上角确认按钮(滑动三次以上后确认按钮才能点击)</string>
+    <string name="txt_user_guide_confirmset_pwd_and_save">重复上面所有步骤,完成后点击右上角确认按钮,如果相同将会按照选择的颜色，滑动方向组合保存为当前密码</string>
+    <string name="txt_user_guide_introduce">魔方解锁介绍：\n一个魔方展开后有六个面，每个面又包含9个小块，对应着6种颜色，每个小块可以向上下左右方向滑动，如果没有想要的颜色，可以通过滑动底部空白区域，根据相应的滑动方向将魔方的其他面展示到正前方。设置密码需要保证两次选择的颜色，滑动方向完全一致</string>
 
 </resources>

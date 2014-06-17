@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
 
+import com.tomatozq.opengl.R;
+
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.graphics.Color;
@@ -477,8 +479,26 @@ public class RobikCube2D {
                 btns[i].setText(String.valueOf(frontFace[i]));
             }
             btns[i].setTag(frontFace[i]);
-            btns[i].setBackgroundColor(Color.parseColor(arrayButtonColors.get(frontFace[i])));
+            // btns[i].setBackgroundColor(Color.parseColor(arrayButtonColors.get(frontFace[i])));
+            btns[i].setBackgroundResource(getResoureIdByColor(arrayButtonColors.get(frontFace[i])));
         }
+    }
+
+    private int getResoureIdByColor(String color) {
+        if ("CYAN".equals(color)) {
+            return R.drawable.cyan;
+        } else if ("BLUE".equals(color)) {
+            return R.drawable.blue;
+        } else if ("GREEN".equals(color)) {
+            return R.drawable.green;
+        } else if ("RED".equals(color)) {
+            return R.drawable.red;
+        } else if ("WHITE".equals(color)) {
+            return R.drawable.white;
+        } else if ("YELLOW".equals(color)) {
+            return R.drawable.yellow;
+        }
+        return R.drawable.red;
     }
 
     private SparseArray<String> arrayButtonColors = new SparseArray<String>();

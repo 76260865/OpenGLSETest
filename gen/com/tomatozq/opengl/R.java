@@ -262,13 +262,20 @@ containing a value of this type.
         public static final int title_bar_height=0x7f09000b;
     }
     public static final class drawable {
-        public static final int cube=0x7f020000;
-        public static final int face=0x7f020001;
-        public static final int face_direction=0x7f020002;
-        public static final int face_pwd=0x7f020003;
-        public static final int ic_launcher=0x7f020004;
-        public static final int pre5=0x7f020005;
-        public static final int robik=0x7f020006;
+        public static final int blue=0x7f020000;
+        public static final int cube=0x7f020001;
+        public static final int cube_layer=0x7f020002;
+        public static final int cyan=0x7f020003;
+        public static final int face=0x7f020004;
+        public static final int face_direction=0x7f020005;
+        public static final int face_pwd=0x7f020006;
+        public static final int green=0x7f020007;
+        public static final int ic_launcher=0x7f020008;
+        public static final int pre5=0x7f020009;
+        public static final int red=0x7f02000a;
+        public static final int robik=0x7f02000b;
+        public static final int white=0x7f02000c;
+        public static final int yellow=0x7f02000d;
     }
     public static final class id {
         public static final int btn_OK=0x7f050012;
@@ -299,11 +306,12 @@ containing a value of this type.
     }
     public static final class layout {
         public static final int activity_robik_cube_2d=0x7f030000;
-        public static final int guide_confirm_move_face_fragment_layout=0x7f030001;
-        public static final int guide_fragment_layout=0x7f030002;
-        public static final int guide_move_face_fragment_layout=0x7f030003;
-        public static final int main=0x7f030004;
-        public static final int user_guide_activity=0x7f030005;
+        public static final int guide_3d_fragment_layout=0x7f030001;
+        public static final int guide_confirm_move_face_fragment_layout=0x7f030002;
+        public static final int guide_fragment_layout=0x7f030003;
+        public static final int guide_move_face_fragment_layout=0x7f030004;
+        public static final int main=0x7f030005;
+        public static final int user_guide_activity=0x7f030006;
     }
     public static final class raw {
         public static final int robot=0x7f040000;
@@ -316,6 +324,7 @@ containing a value of this type.
         public static final int rubik2d=0x7f0a0005;
         public static final int spritetext=0x7f0a0003;
         public static final int txt_confirm_set_pwd_and_save=0x7f0a0007;
+        public static final int txt_guide_3d_introduce=0x7f0a000b;
         public static final int txt_set_pwd_and_save=0x7f0a0006;
         public static final int txt_user_guide_confirmset_pwd_and_save=0x7f0a0009;
         public static final int txt_user_guide_introduce=0x7f0a000a;

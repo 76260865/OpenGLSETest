@@ -47,7 +47,7 @@ public class KubeSurfaceView extends GLSurfaceView {
 	            float dy = x - mPreviousX;
 
 	            mRenderer.offsetX = dx;
-//	            mRenderer.offsetY = dy;
+	            mRenderer.offsetY = dy;
 	            requestRender();
 	            break;
 	        case MotionEvent.ACTION_UP:

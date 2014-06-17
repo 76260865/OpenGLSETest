@@ -67,7 +67,7 @@ public class GLWorld {
 	    	//在Bitmap上绘制文字
 	    	String text = cube.id;
 	    	float textWidth = p.measureText(text);
-	    	canvas.drawText(cube.id,(imgSize - textWidth)/2,imgSize - fontSize, p); 
+//	    	canvas.drawText(cube.id,(imgSize - textWidth)/2,imgSize - fontSize, p); 
 	    	
 	    	cube.loadBitmap(bitmap);
 		}

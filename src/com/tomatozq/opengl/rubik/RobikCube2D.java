@@ -480,6 +480,7 @@ public class RobikCube2D {
             }
             btns[i].setTag(frontFace[i]);
             // btns[i].setBackgroundColor(Color.parseColor(arrayButtonColors.get(frontFace[i])));
+            btns[i].setText("");
             btns[i].setBackgroundResource(getResoureIdByColor(arrayButtonColors.get(frontFace[i])));
         }
     }

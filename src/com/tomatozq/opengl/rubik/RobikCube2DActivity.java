@@ -27,6 +27,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.tomatozq.opengl.R;
+import com.tomatozq.opengl.rubik.acts.Main;
+import com.tomatozq.opengl.rubik.acts.myService;
 
 public class RobikCube2DActivity extends Activity {
     private static final String TAG = "RobikCube2DActivity";
@@ -69,6 +71,7 @@ public class RobikCube2DActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_robik_cube_2d);
+        startService(new Intent(this, myService.class));
         prefs = getPreferences(Context.MODE_PRIVATE);
         mRobikCube2D = new RobikCube2D();
         mGesture = new GestureDetector(this, new GestureListener());
@@ -157,7 +160,8 @@ public class RobikCube2DActivity extends Activity {
         Intent intent = new Intent();
         intent.setType("image/*");
         intent.setAction(Intent.ACTION_GET_CONTENT);
-        startActivity(intent);
+        // startActivity(intent);
+        this.finish();
     }
 
     private void setupView() {
@@ -402,6 +406,7 @@ public class RobikCube2DActivity extends Activity {
     public boolean onCreateOptionsMenu(Menu menu) {
         menu.add(0, 1, 1, "重置");
         menu.add(0, 2, 2, "介绍");
+        menu.add(0, 3, 3, "重新输入");
         return true;
     }
 
@@ -412,6 +417,8 @@ public class RobikCube2DActivity extends Activity {
         } else if (item.getItemId() == 2) {
             // saveCurrentState();
             luanchUserGuideActivity();
+        } else if (item.getItemId() == 3) {
+            mButtonDirectionTackerList.clear();
         }
         return true;
     }
@@ -459,5 +466,10 @@ public class RobikCube2DActivity extends Activity {
         Editor sharedEditor = sharedPrefs.edit();
         sharedEditor.clear();
         sharedEditor.commit();
+    }
+
+    @Override
+    public void onBackPressed() {
+        Log.d("xxxxx", "onBackPressed");
     }
 }

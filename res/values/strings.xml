@@ -2,7 +2,7 @@
 <resources>
 
     <string name="hello">Hello World, OpenGLSETestActivity!</string>
-    <string name="app_name">OpenGLSETest</string>
+    <string name="app_name">Keyguard</string>
     <string name="rotate_cube">旋转立方体</string>
     <string name="spritetext">精灵文字</string>
     <string name="rubik">魔方3D</string>

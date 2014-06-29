@@ -111,8 +111,7 @@
     <LinearLayout
         android:id="@+id/layout_main"
         android:layout_width="match_parent"
-        android:layout_height="0dip"
-        android:layout_weight="1"
+        android:layout_height="100dip"
         android:clickable="true"
         android:orientation="vertical" >
     </LinearLayout>
